@@ -24,16 +24,19 @@ exports.setFieldsOnGraphQLNodeType = ({ type }) => {
     slug: {
       type: GraphQLString,
       resolve: node => {
-				if (node.fields && node.fields.typ == "blog") {
-					const ast = Remark().parse(node.internal.content)
-					const slug = slugify(ast.children[0].children[0].value)
-          const dt = new Date(node.fields.date)
-          return ("/blog/" +
-            dt.getFullYear().toString() + "/" +
-            (dt.getMonth() + 1).toString() + "/" +
-            (dt.getDate() + 1).toString() + "/"
-            + slug)
-				}
+        const ast = Remark().parse(node.internal.content)
+        const slug = slugify(ast.children[0].children[0].value)
+        switch (node.fields.type) {
+          case "blog":
+            const dt = new Date(node.fields.date)
+            return ("/blog/" +
+              dt.getFullYear().toString() + "/" +
+              (dt.getMonth() + 1).toString() + "/" +
+              (dt.getDate() + 1).toString() + "/"
+              + slug)
+          case "case":
+            return ("/cases/" + slug)
+        }
 			},
     },
   })
@@ -45,15 +48,24 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const prefix = (`${__dirname}/src/markdown/`).length
     const src = node.fileAbsolutePath.substring(prefix)
-    const typ = path.dirname(src)
+    const type = path.dirname(src)
 
-    if (typ.substring(0, 5) == "blog/") {
-      const year = path.basename(typ)
+    if (type.substring(0, 5) == "blog/") {
+      const year = path.basename(type)
       const name = path.basename(src)
       const dt = year + "-" + name.substring(0, name.length - 3)
 			createNodeField({node, name: `date`, value: dt})
-			createNodeField({node, name: `typ`, value: "blog"})
-  	}
+			createNodeField({node, name: `type`, value: "blog"})
+
+    } else if (type == "cases") {
+			createNodeField({node, name: `type`, value: "case"})
+
+    } else if (type == "about") {
+			createNodeField({node, name: `type`, value: "about"})
+
+    } else {
+			createNodeField({node, name: `type`, value: "."})
+    }
 	}
 }
 
@@ -72,6 +84,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 value
               }
 							fields {
+                type
 								date
 							}
               fileAbsolutePath
@@ -83,14 +96,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
       }
     `
-).then(result => {
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-
-        const prefix = (`${__dirname}/src/markdown/`).length
-        const src = node.fileAbsolutePath.substring(prefix)
-        const typ = path.dirname(src)
-
-        if (typ == "about") {
+  ).then(result => {
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      switch (node.fields.type) {
+        case "about":
           createPage({
             path: node.frontmatter.slug,
             component: path.resolve(`./src/templates/about.js`),
@@ -100,8 +109,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               name: node.frontmatter.name,
             },
           })
+          break
 
-        } else if (typ.substring(0, 4) == "blog") {
+        case "blog":
           createPage({
             path: node.slug,
             component: path.resolve(`./src/templates/blog.js`),
@@ -109,12 +119,13 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               pt: node.fileAbsolutePath.toString(),
             },
           })
+          break
 
-        } else {
-          console.log("SKIP", typ, src, typ.substring(1, 4))
-        }
-      })
-      resolve()
+        default:
+          console.log("SKIP", node.fileAbsolutePath, node.fields.type)
+      }
+    })
+    resolve()
     })
   })
 }

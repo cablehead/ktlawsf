@@ -31,7 +31,6 @@ export const pageQuery = graphql `
 
 export default ({ data }) => {
 	const posts = data.posts.edges
-	console.log(posts)
   return <div style={{ margin: '0 auto', maxWidth: `960px` }}>
     <div style={{ margin: '0 1rem' }}>
 			<Nav>

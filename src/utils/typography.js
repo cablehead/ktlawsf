@@ -5,7 +5,7 @@ const typography = new Typography({
   baseLineHeight: 1.45,
   googleFonts: [
     {name: "Quattrocento", styles: ["400", "400i", "700", "700i"]},
-    {name: "Lato", styles: ["300"]},
+    {name: "Lato", styles: ["300", "700"]},
     ],
 
   bodyFontFamily: ["Quattrocento", "arial"],

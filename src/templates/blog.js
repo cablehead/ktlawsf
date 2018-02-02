@@ -25,7 +25,7 @@ export default ({ data }) =>
     <div style={{ margin: '0 1rem' }}>
       <Nav active="blog" />
       <Img sizes={data.image.sizes} />
-      <Post htmlAst={data.post.htmlAst} date={data.post.fields.date} />
+      <Post slug={data.post.slug} htmlAst={data.post.htmlAst} date={data.post.fields.date} />
     </div>
     <Footer />
   </div>

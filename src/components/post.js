@@ -44,8 +44,14 @@ const Post = (props) => {
 	const AST = toH(React.createElement, props.htmlAst)
 	const header = _.clone(AST.props.children[0])
 	header.type = "h2"
-	AST.props.children[0] = <Link to={ props.slug }>{ header }</Link>
-	AST.props.children.splice(1, 0, <PostedOn slug={ props.slug } date={ props.date } />)
+	if (props.date) {
+		AST.props.children[0] = <Link to={ props.slug }>{ header }</Link>
+		AST.props.children.splice(1, 0, <PostedOn slug={ props.slug } date={ props.date } />)
+
+	} else {
+		AST.props.children[0] = <p><Link to={ props.slug }>{ header }</Link></p>
+	}
+
   return <div className={ style } style={{ marginTop: '25px' }}>{ AST }</div>
 }
 

@@ -1,46 +1,33 @@
-import Img from "gatsby-image";
-
 import Post from "../components/post"
 import Nav from "../components/nav"
 import Footer from "../components/footer"
 
 
 export const pageQuery = graphql `
-  query MainBlogQuery {
+  query MainCasesQuery {
     posts: allMarkdownRemark(
 			sort: {order: DESC, fields: [id]},
-			filter: {fields: {type : {eq: "blog"}} },
+			filter: {fields: {type : {eq: "case"}} },
 		) {
 			edges {
 				node {
 					slug
 					htmlAst
-					fields {
-						date
-					}
 				}
 			}
     },
-    image: imageSharp(id: { regex: "/blog.jpg/" }) {
-      sizes(maxWidth: 960, maxHeight:320, toFormat: JPG ) {
-        ...GatsbyImageSharpSizes
-      }
-    },
   }
 `
+
 
 export default ({ data }) => {
 	const posts = data.posts.edges
   return <div style={{ margin: '0 auto', maxWidth: `960px` }}>
     <div style={{ margin: '0 1rem' }}>
-			<Nav active="blog" />
-			<Img
-				title="Tools of the trade for two professional Lady Lawyers"
-				sizes={data.image.sizes}
-			/>
+			<Nav active="cases" />
 			{
 				posts.map(({ node }) => (
-					<Post slug={node.slug} htmlAst={node.htmlAst} date={node.fields.date} />
+					<Post slug={node.slug} htmlAst={node.htmlAst} />
 				))
 			}
     </div>

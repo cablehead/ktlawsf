@@ -121,6 +121,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           })
           break
 
+        case "case":
+          createPage({
+            path: node.slug,
+            component: path.resolve(`./src/templates/case.js`),
+            context: {
+              pt: node.fileAbsolutePath.toString(),
+            },
+          })
+          break
+
         default:
           console.log("SKIP", node.fileAbsolutePath, node.fields.type)
       }

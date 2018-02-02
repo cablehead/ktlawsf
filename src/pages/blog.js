@@ -33,8 +33,7 @@ export default ({ data }) => {
 	const posts = data.posts.edges
   return <div style={{ margin: '0 auto', maxWidth: `960px` }}>
     <div style={{ margin: '0 1rem' }}>
-			<Nav>
-			</Nav>
+			<Nav active="blog" />
 			<Img
 				title="Tools of the trade for two professional Lady Lawyers"
 				sizes={data.image.sizes}

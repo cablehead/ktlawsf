@@ -29,36 +29,43 @@ const style = css({
   fontWeight: 300,
   marginBottom: '25px',
   fontSize:'80%',
-  ' a': {
-    marginRight: '10px',
-    display: 'inline-block',
-  },
-  ' a:link,  a:visited': {
-    color: "hsla(0, 0%, 0%, 0.6)",
-  },
-  ' a:hover': {
+})
+
+const normal = css({
+  marginRight: '10px',
+  display: 'inline-block',
+  color: "hsla(0, 0%, 0%, 0.6)",
+  ':hover': {
     color: '#0083bf',
   },
 })
 
-export default ({ children }) =>
+const active = css({
+  marginRight: '10px',
+  display: 'inline-block',
+  ':link,  :visited': {
+    fontWeight: 700,
+    color: '#0083bf',
+  },
+})
+
+export default (props) =>
   <Container>
     <div style={{ }}>
-			<Link to="/">
+      <Link to="/">
       <img src={ logo } style={{ marginBottom: 0 }}/>
-			</Link>
+      </Link>
     </div>
 
     <div className={`${style}`}>
-      <Link to="/">HOME</Link>
-      <Link to="/about-us">ABOUT US</Link>
-      <Link to="/practice-areas">PRACTICE AREAS</Link>
-      <Link to="/cases">CASES</Link>
-      <Link to="/blog">BLOG</Link>
-      <Link to="/contact-us">CONTACT US</Link>
-      <Link to="/zhongwen">中文</Link>
+      <Link className={ props.active == "home" ? active : normal } to="/">HOME</Link>
+      <Link className={ props.active == "about-us" ? active : normal } to="/about-us">ABOUT US</Link>
+      <Link className={ props.active == "practice-areas" ? active : normal } to="/practice-areas"> PRACTICE AREAS</Link>
+      <Link className={ props.active == "cases" ? active : normal } to="/cases">CASES</Link>
+      <Link className={ props.active == "blog" ? active : normal } to="/blog">BLOG</Link>
+      <Link className={ props.active == "contact-us" ? active : normal } to="/contact-us">CONTACT US</Link>
+      <Link className={ props.active == "zhongwen" ? active : normal } to="/zhongwen">中文</Link>
     </div>
 
-    {children}
+    {props.children}
   </Container>
-

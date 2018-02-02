@@ -20,7 +20,7 @@ export const pageQuery = graphql `
 export default ({ data }) =>
   <div style={{ margin: '0 auto', maxWidth: `960px` }}>
     <div style={{ margin: '0 1rem' }}>
-    <Nav>
+    <Nav active="about-us">
       <div style={{ marginBottom: '1.45rem' }}>
         <Img
           title="Lady Lawyer, looking very professional."

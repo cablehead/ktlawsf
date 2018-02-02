@@ -20,8 +20,7 @@ export const pageQuery = graphql `
 export default ({ data }) =>
   <div style={{ margin: '0 auto', maxWidth: `960px` }}>
     <div style={{ margin: '0 1rem' }}>
-			<Nav>
-			</Nav>
+			<Nav active="practice-areas" />
 			<Img
 				title="Tools of the trade for two professional Lady Lawyers"
 				sizes={data.image.sizes}

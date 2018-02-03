@@ -15,8 +15,8 @@ export const pageQuery = graphql `
 `
 export default ({ data }) =>
   <div style={{ margin: '0 auto', maxWidth: `960px` }}>
+    <Nav active="cases" />
     <div style={{ margin: '0 1rem' }}>
-      <Nav active="cases" />
       <Post slug={data.post.slug} htmlAst={data.post.htmlAst} />
     </div>
     <Footer />

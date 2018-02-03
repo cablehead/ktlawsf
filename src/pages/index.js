@@ -55,12 +55,12 @@ export const pageQuery = graphql`
 
 export default (props) =>
 <div style={{ margin: '0 auto', maxWidth: `960px` }}>
+	<Nav active="home" />
+	<Img
+		title="Two ladies, looking professional, knowledgeable and responsive."
+		sizes={props.data.image_main.sizes}
+	/>
 	<div style={{ margin: '0 1rem' }}>
-		<Nav active="home" />
-		<Img
-			title="Two ladies, looking professional, knowledgeable and responsive."
-			sizes={props.data.image_main.sizes}
-		/>
     <h1 style={{ fontWeight: '300', marginTop: '25px', textAlign: 'center' }}>
 			<b>Kosinski and Thiagaraj, LLP</b> is an <b>employment law</b> firm that
 			provides <b>responsive</b> and <b>knowledgeable</b> legal services.

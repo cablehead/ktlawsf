@@ -22,9 +22,9 @@ export const pageQuery = graphql `
 `
 export default ({ data }) => 
   <div style={{ margin: '0 auto', maxWidth: `960px` }}>
+    <Nav active="blog" />
+    <Img sizes={data.image.sizes} />
     <div style={{ margin: '0 1rem' }}>
-      <Nav active="blog" />
-      <Img sizes={data.image.sizes} />
       <Post slug={data.post.slug} htmlAst={data.post.htmlAst} date={data.post.fields.date} />
     </div>
     <Footer />

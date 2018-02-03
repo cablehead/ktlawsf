@@ -23,8 +23,8 @@ export const pageQuery = graphql `
 export default ({ data }) => {
 	const posts = data.posts.edges
   return <div style={{ margin: '0 auto', maxWidth: `960px` }}>
+    <Nav active="cases" />
     <div style={{ margin: '0 1rem' }}>
-			<Nav active="cases" />
 			{
 				posts.map(({ node }) => (
 					<Post slug={node.slug} htmlAst={node.htmlAst} />

@@ -1,6 +1,9 @@
 import Img from "gatsby-image";
 import Link from "gatsby-link"
 
+import Nav from "../components/nav"
+import Footer from "../components/footer"
+
 import logo from "../images/logo.png"
 
 
@@ -52,22 +55,12 @@ export const pageQuery = graphql`
 
 export default (props) =>
 <div style={{ margin: '0 auto', maxWidth: `960px` }}>
-
-	<div style={{ position: 'relative' }}>
+	<div style={{ margin: '0 1rem' }}>
+		<Nav active="home" />
 		<Img
 			title="Two ladies, looking professional, knowledgeable and responsive."
 			sizes={props.data.image_main.sizes}
 		/>
-		<img src={ logo } style={{
-			width: '40%',
-			backgroundColor: 'rgba(256, 256, 256, 0.7)',
-			position: 'absolute',
-			bottom: 0,
-			right: 0,
-			}}/>
-	</div>
-
-	<div style={{ margin: '0 1rem' }}>
     <h1 style={{ fontWeight: '300', marginTop: '25px', textAlign: 'center' }}>
 			<b>Kosinski and Thiagaraj, LLP</b> is an <b>employment law</b> firm that
 			provides <b>responsive</b> and <b>knowledgeable</b> legal services.
@@ -147,13 +140,7 @@ export default (props) =>
 			</Item>
     </Container>
   </div>
-<div style={{ padding: '10px', borderTop: '1px #aaa solid', textAlign: 'center', fontSize: '60%' }}>
-<br/>
-351 California Street, Suite 300 ~ San Francisco, CA 94104 ~ (415) 230-2860 ~ © Kosinski and Thiagaraj, LLP 2018
-<br/>
-<br/>
-This website contains general information that is intended, but not guaranteed, to be correct.  This website is not intended to be a source of legal advice and visiting this website does not create an attorney-client relationship. 
-</div>
+	<Footer />
 </div>
 
 

@@ -36,8 +36,8 @@ export const pageQuery = graphql`
         ...GatsbyImageSharpSizes
       }
     },
-    image_practiceareas: imageSharp(id: { regex: "/practice-areas.png/" }) {
-      sizes(maxWidth: 960, toFormat: JPG ) {
+    image_practiceareas: imageSharp(id: { regex: "/practice-areas.jpg/" }) {
+      sizes(maxWidth: 960, maxHeight: 960, toFormat: JPG ) {
         ...GatsbyImageSharpSizes
       }
     },
@@ -83,11 +83,13 @@ export default (props) =>
     <Container>
       <Item>
         <h2>About Us</h2>
+        <Link to="/about-us">
         <Img
           style={{ border: 'black solid 3px', marginBottom: '20px' }}
           title="Two ladies, looking professional, yet fun!"
           sizes={props.data.image_aboutus.sizes}
         />
+        </Link>
         <p>
         Alison Kosinski and Emily Thiagaraj have many years of experience
         handling complex employment matters.  Read more about their work and
@@ -100,11 +102,13 @@ export default (props) =>
       </Item>
       <Item>
         <h2>Practice Areas</h2>
+        <Link to="/practice-areas">
         <Img
           style={{ border: 'black solid 3px', marginBottom: '20px' }}
           title="Practice Areas"
           sizes={props.data.image_practiceareas.sizes}
         />
+        </Link>
         <p>
         The experienced attorneys at Kosinski and Thiagaraj, LLP provide
         outstanding representation of employees in all areas of employment law: 
@@ -124,11 +128,13 @@ export default (props) =>
       </Item>
       <Item>
         <h2>Blog</h2>
+        <Link to="/blog">
         <Img
           style={{ border: 'black solid 3px', marginBottom: '20px' }}
           title="Two ladies leaving court after professionally demolishing the opposition."
           sizes={props.data.image_news.sizes}
         />
+        </Link>
         <p>
         We write about the newest developments in employment law here.
         </p>

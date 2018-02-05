@@ -1,8 +1,6 @@
 import Img from "gatsby-image";
 
-import Nav from "../components/nav"
-import Footer from "../components/footer"
-
+import Layout from "../components/layout"
 
 export const pageQuery = graphql `
   query PracticeAreasQuery {
@@ -18,14 +16,12 @@ export const pageQuery = graphql `
 `
 
 export default ({ data }) =>
-  <div style={{ margin: '0 auto', maxWidth: `960px` }}>
-    <Nav active="practice-areas" />
+  <Layout active="practice-areas">
     <Img
-        title="Tools of the trade for two professional Lady Lawyers"
-        sizes={data.image.sizes}
+      title="Tools of the trade for two professional Lady Lawyers"
+      sizes={data.image.sizes}
     />
     <div style={{ margin: '0 1rem' }}>
-        <div style={{ marginTop: '25px' }} dangerouslySetInnerHTML={{ __html: data.markdown_html.html }} />
+      <div style={{ marginTop: '25px' }} dangerouslySetInnerHTML={{ __html: data.markdown_html.html }} />
     </div>
-    <Footer />
-  </div>
+  </Layout>

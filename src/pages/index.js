@@ -1,22 +1,19 @@
 import Img from "gatsby-image";
 import Link from "gatsby-link"
 
-import Nav from "../components/nav"
-import Footer from "../components/footer"
-
-import logo from "../images/logo.png"
-
+import Layout from "../components/layout"
 
 const Container = props =>
   <div
     css={{
       display: `grid`,
-			gridColumnGap: `20px`,
+      gridColumnGap: `20px`,
       gridTemplateColumns: `repeat(auto-fill, minmax(280px, 1fr))`,
     }}
   >
     {props.children}
   </div>
+
 
 const Item = props =>
   <div
@@ -33,7 +30,7 @@ export const pageQuery = graphql`
       sizes(maxWidth: 960, toFormat: JPG ) {
         ...GatsbyImageSharpSizes
       }
- 		},
+    },
     image_aboutus: imageSharp(id: { regex: "/about-us.jpg/" }) {
       sizes(maxWidth: 960, toFormat: JPG ) {
         ...GatsbyImageSharpSizes
@@ -54,94 +51,89 @@ export const pageQuery = graphql`
 
 
 export default (props) =>
-<div style={{ margin: '0 auto', maxWidth: `960px` }}>
-	<Nav active="home" />
-	<Img
-		title="Two ladies, looking professional, knowledgeable and responsive."
-		sizes={props.data.image_main.sizes}
-	/>
-	<div style={{ margin: '0 1rem' }}>
+  <Layout active="home">
+    <Img
+      title="Two ladies, looking professional, knowledgeable and responsive."
+      sizes={props.data.image_main.sizes}
+    />
+    <div style={{ margin: '0 1rem' }}>
     <h1 style={{ fontWeight: '300', marginTop: '25px', textAlign: 'center' }}>
-			<b>Kosinski and Thiagaraj, LLP</b> is an <b>employment law</b> firm that
-			provides <b>responsive</b> and <b>knowledgeable</b> legal services.
-		</h1>
+      <b>Kosinski and Thiagaraj, LLP</b> is an <b>employment law</b> firm that
+      provides <b>responsive</b> and <b>knowledgeable</b> legal services.
+    </h1>
     <div>
       <p>
       Experiencing unlawful treatment at work harms both your work life and
       your personal life. 
-			</p>
-			<p>
- 			Therefore, finding an attentive attorney who will
+      </p>
+      <p>
+      Therefore, finding an attentive attorney who will
       listen closely to your case and provide you with individual service is
       important.  The attorneys at Kosinski and Thiagaraj, LLP will attend to
       your concerns and will work hard to represent your interests.  Fees for
       most types of cases are on contingency, which means you do not pay any
       fees unless you collect damages.  
-			</p>
+      </p>
 
-			<p style={{ textAlign: 'center' }}>Please contact us for a free phone consultation.</p>
+      <p style={{ textAlign: 'center' }}>Please contact us for a free phone consultation.</p>
     </div>
 
-  	<div style={{ padding: '20px', borderTop: '1px #eee solid' }} />
+    <div style={{ padding: '20px', borderTop: '1px #eee solid' }} />
 
     <Container>
       <Item>
-      	<h2>About Us</h2>
-				<Img
-					style={{ border: 'black solid 3px', marginBottom: '20px' }}
-					title="Two ladies, looking professional, yet fun!"
-					sizes={props.data.image_aboutus.sizes}
-				/>
-				<p>
-				Alison Kosinski and Emily Thiagaraj have many years of experience
-				handling complex employment matters.  Read more about their work and
-				their unique skills:
-				</p>
+        <h2>About Us</h2>
+        <Img
+          style={{ border: 'black solid 3px', marginBottom: '20px' }}
+          title="Two ladies, looking professional, yet fun!"
+          sizes={props.data.image_aboutus.sizes}
+        />
+        <p>
+        Alison Kosinski and Emily Thiagaraj have many years of experience
+        handling complex employment matters.  Read more about their work and
+        their unique skills:
+        </p>
 
-				<p><Link to="/alison-kosinski">Alison Kosinski &gt;</Link></p>
-				<p><Link to="/emily-thiagaraj">Emily Thiagaraj &gt;</Link></p>
-				<p><Link to="/testimonials">Testimonials &gt;</Link></p>
-			</Item>
+        <p><Link to="/alison-kosinski">Alison Kosinski &gt;</Link></p>
+        <p><Link to="/emily-thiagaraj">Emily Thiagaraj &gt;</Link></p>
+        <p><Link to="/testimonials">Testimonials &gt;</Link></p>
+      </Item>
       <Item>
-				<h2>Practice Areas</h2>
-				<Img
-					style={{ border: 'black solid 3px', marginBottom: '20px' }}
-					title="Practice Areas"
-					sizes={props.data.image_practiceareas.sizes}
-				/>
-				<p>
-				The experienced attorneys at Kosinski and Thiagaraj, LLP provide
-				outstanding representation of employees in all areas of employment law: 
-				</p>
+        <h2>Practice Areas</h2>
+        <Img
+          style={{ border: 'black solid 3px', marginBottom: '20px' }}
+          title="Practice Areas"
+          sizes={props.data.image_practiceareas.sizes}
+        />
+        <p>
+        The experienced attorneys at Kosinski and Thiagaraj, LLP provide
+        outstanding representation of employees in all areas of employment law: 
+        </p>
 
-				<ul>
-				<li>Unpaid Wages and Overtime</li>
-				<li>Misclassification of Employees</li>
-				<li>Discrimination</li>
-				<li>Harassment</li>
-				<li>Retaliation</li>
-				<li>Family and Medical Leave</li>
-				<li>Severance Agreements</li>
-				<li>Wrongful Termination</li>
-				</ul>
-				<p><Link to="/practice-areas">Practice Areas &gt;</Link></p>
-			</Item>
+        <ul>
+        <li>Unpaid Wages and Overtime</li>
+        <li>Misclassification of Employees</li>
+        <li>Discrimination</li>
+        <li>Harassment</li>
+        <li>Retaliation</li>
+        <li>Family and Medical Leave</li>
+        <li>Severance Agreements</li>
+        <li>Wrongful Termination</li>
+        </ul>
+        <p><Link to="/practice-areas">Practice Areas &gt;</Link></p>
+      </Item>
       <Item>
-				<h2>Blog</h2>
-				<Img
-					style={{ border: 'black solid 3px', marginBottom: '20px' }}
-					title="Two ladies leaving court after professionally demolishing the opposition."
-					sizes={props.data.image_news.sizes}
-				/>
-				<p>
-				We write about the newest developments in employment law here.
-				</p>
-				<p><Link to="/blog">Blog &gt;</Link></p>
-			</Item>
+        <h2>Blog</h2>
+        <Img
+          style={{ border: 'black solid 3px', marginBottom: '20px' }}
+          title="Two ladies leaving court after professionally demolishing the opposition."
+          sizes={props.data.image_news.sizes}
+        />
+        <p>
+        We write about the newest developments in employment law here.
+        </p>
+        <p><Link to="/blog">Blog &gt;</Link></p>
+      </Item>
     </Container>
-  </div>
-	<Footer />
-</div>
-
-
-
+    </div>
+  </Layout>

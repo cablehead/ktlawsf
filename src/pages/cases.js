@@ -1,6 +1,5 @@
+import Layout from "../components/layout"
 import Post from "../components/post"
-import Nav from "../components/nav"
-import Footer from "../components/footer"
 
 
 export const pageQuery = graphql `
@@ -19,11 +18,10 @@ export const pageQuery = graphql `
   }
 `
 
-
 export default ({ data }) => {
 	const posts = data.posts.edges
-  return <div style={{ margin: '0 auto', maxWidth: `960px` }}>
-    <Nav active="cases" />
+  return (
+    <Layout active="cases">
     <div style={{ margin: '0 1rem' }}>
 			{
 				posts.map(({ node }) => (
@@ -31,6 +29,6 @@ export default ({ data }) => {
 				))
 			}
     </div>
-    <Footer />
-  </div>
-	}
+    </Layout>
+  )
+}

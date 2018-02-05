@@ -1,8 +1,7 @@
 import Img from "gatsby-image";
 
 import Post from "../components/post"
-import Nav from "../components/nav"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 
 export const pageQuery = graphql `
@@ -31,8 +30,8 @@ export const pageQuery = graphql `
 
 export default ({ data }) => {
 	const posts = data.posts.edges
-  return <div style={{ margin: '0 auto', maxWidth: `960px` }}>
-		<Nav active="blog" />
+  return (
+		<Layout active="blog">
 		<Img
 			title="Tools of the trade for two professional Lady Lawyers"
 			sizes={data.image.sizes}
@@ -44,6 +43,6 @@ export default ({ data }) => {
 				))
 			}
     </div>
-    <Footer />
-  </div>
-	}
+  </Layout>
+  )
+}

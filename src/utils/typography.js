@@ -1,7 +1,7 @@
 import Typography from "typography";
 
 const typography = new Typography({
-  baseFontSize: "20px",
+  baseFontSize: "18px",
   baseLineHeight: 1.45,
   googleFonts: [
     {name: "Quattrocento", styles: ["400", "400i", "700", "700i"]},

@@ -1,6 +1,6 @@
 import { css } from 'glamor'
 
-import logo from "../images/logo.png"
+import logo from "../images/logo.svg"
 
 import Link from "gatsby-link"
 
@@ -53,7 +53,7 @@ export default (props) =>
   <Container>
     <div style={{ }}>
       <Link to="/">
-      <img src={ logo } style={{ marginBottom: 0 }}/>
+      <img src={ logo } style={{ maxHeight: 100, marginLeft: '-25px', marginBottom: 0 }}/>
       </Link>
     </div>
 

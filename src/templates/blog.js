@@ -1,8 +1,7 @@
 import Img from "gatsby-image";
 
 import Post from "../components/post"
-import Nav from "../components/nav"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 export const pageQuery = graphql `
   query BlogQuery($pt: String!) {
@@ -21,11 +20,9 @@ export const pageQuery = graphql `
   }
 `
 export default ({ data }) => 
-  <div style={{ margin: '0 auto', maxWidth: `960px` }}>
-    <Nav active="blog" />
+  <Layout active="blog">
     <Img sizes={data.image.sizes} />
     <div style={{ margin: '0 1rem' }}>
       <Post slug={data.post.slug} htmlAst={data.post.htmlAst} date={data.post.fields.date} />
     </div>
-    <Footer />
-  </div>
+  </Layout>

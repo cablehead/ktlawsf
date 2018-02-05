@@ -1,7 +1,7 @@
 import Img from "gatsby-image"
 
-import Nav from "../components/nav"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
+import OneAndTwoThirds from "../components/oneandtwothirds"
 
 
 export const pageQuery = graphql `
@@ -18,17 +18,16 @@ export const pageQuery = graphql `
 `
 
 export default ({ data }) =>
-  <div style={{ margin: '0 auto', maxWidth: `960px` }}>
+  <Layout active="about-us">
     <div style={{ margin: '0 1rem' }}>
-    <Nav active="about-us">
+    <OneAndTwoThirds>
       <div style={{ marginBottom: '1.45rem' }}>
-        <Img
-          title="Lady Lawyer, looking very professional."
-          sizes={data.image.sizes}
-        />
+      <Img
+        title="Lady Lawyer, looking very professional."
+        sizes={data.image.sizes}
+      />
       </div>
       <div dangerouslySetInnerHTML={{ __html: data.markdown_html.html }} />
-    </Nav>
+    </OneAndTwoThirds>
     </div>
-    <Footer />
-  </div>
+  </Layout>

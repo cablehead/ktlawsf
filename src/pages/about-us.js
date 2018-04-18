@@ -26,7 +26,7 @@ export const pageQuery = graphql`
 `
 
 export default (props) =>
-  <Layout active="about">
+  <Layout active="about-us">
     <div style={{ margin: '0 1rem' }}>
     <h1>About Us</h1>
     <Container>

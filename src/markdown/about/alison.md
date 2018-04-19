@@ -12,13 +12,12 @@ Alison represents individuals in all matters related to the workplace.  She
 brings to each case a passion and commitment to justice that has been part of
 her for years.  After graduating from Cornell University with honors in
 Government and Asian Studies, Alison continued her studies in Taiwan, and there
-decided to return to her native Boston to attend law school. 
+decided to return to her native Boston to attend law school.
 
 > “I went to law school to gain tools to change people’s lives.”
 
 As a law student, Alison represented Chinese-speaking clients in employment and
-immigration matters.  Alison went on to graduate suma cum laude (_pinkie
-raise_) from Suffolk University Law School.
+immigration matters.  Alison went on to graduate suma cum laude from Suffolk University Law School.
 
 > “The Bay Area brings together people from all over the world and from every
   background.  I am proud to call it my home.”
@@ -27,7 +26,7 @@ After graduating from law school in 2008, Alison was admitted to practice law
 in California.  She clerked for the Honorable R. Marc Kantrowitz of the
 Massachusetts Appeals Court, where she analyzed the strengths and viability of
 appellate legal arguments.  A year later, Alison moved to the Bay Area to
-pursue her career in employment law. 
+pursue her career in employment law.
 
 > “I learned the ins and outs of all areas of employment law.”
 

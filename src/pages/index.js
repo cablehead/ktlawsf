@@ -64,15 +64,15 @@ export default (props) =>
     <div>
       <p>
       Experiencing unlawful treatment at work harms both your work life and
-      your personal life. 
+      your personal life.
       </p>
       <p>
-      Therefore, finding an attentive attorney who will
+      Finding an attentive attorney who will
       listen closely to your case and provide you with individual service is
       important.  The attorneys at Kosinski and Thiagaraj, LLP will attend to
       your concerns and will work hard to represent your interests.  Fees for
       most types of cases are on contingency, which means you do not pay any
-      fees unless you collect damages.  
+      fees unless you collect damages.
       </p>
 
       <p style={{ textAlign: 'center' }}>Please contact us for a free phone consultation.</p>
@@ -111,7 +111,7 @@ export default (props) =>
         </Link>
         <p>
         The experienced attorneys at Kosinski and Thiagaraj, LLP provide
-        outstanding representation of employees in all areas of employment law: 
+        outstanding representation of employees in all areas of employment law:
         </p>
 
         <ul>

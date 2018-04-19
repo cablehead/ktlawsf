@@ -67,7 +67,7 @@ export default (props) =>
       your personal life.
       </p>
       <p>
-      Finding an attentive attorney who will
+      Finding an advocate who will
       listen closely to your case and provide you with individual service is
       important.  The attorneys at Kosinski and Thiagaraj, LLP will attend to
       your concerns and will work hard to represent your interests.  Fees for

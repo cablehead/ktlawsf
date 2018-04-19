@@ -19,33 +19,15 @@ decided to return to her native Boston to attend law school.
 As a law student, Alison represented Chinese-speaking clients in employment and
 immigration matters.  Alison went on to graduate suma cum laude from Suffolk University Law School.
 
-> “The Bay Area brings together people from all over the world and from every
-  background.  I am proud to call it my home.”
-
-After graduating from law school in 2008, Alison was admitted to practice law
-in California.  She clerked for the Honorable R. Marc Kantrowitz of the
-Massachusetts Appeals Court, where she analyzed the strengths and viability of
-appellate legal arguments.  A year later, Alison moved to the Bay Area to
-pursue her career in employment law.
-
 > “I learned the ins and outs of all areas of employment law.”
 
 Alison has many years of working in employment law.  She gained invaluable
 experience working for four years at a medium-size California law firm that
-exclusively practiced employment law.  Alison handled numerous cases involving
-wage and hour laws, including failure to pay overtime, failure to provide meal
-breaks, and misclassification of employees as exempt.  During that time Alison
-also wrote extensively and presented workshops throughout the State on current
-changes to wage and hour laws.  Alison handled cases involving workplace
-discrimination, harassment and retaliation as well.
+exclusively practiced employment law.  Alison then co-founded Kosinski and Thiagaraj, LLP in 2014.  She now works with individuals on all types of employment matters, from failure to pay overtime to workplace discrimination to wrongful termination.  Alison brings an open ear and a thoughtful approach to each case.  
 
 > “Being part of a team with my client, representing their interests to my fullest—that’s what I love about being a lawyer.”
 
-After gaining experience in a larger firm, Alison decided to pursue her dream of using her legal skills to represent employees.  She now works with individuals on all types of employment matters, from failure to pay overtime to workplace discrimination to wrongful termination.  Alison brings an open ear and a thoughtful approach to each case.  Please contact Alison if you or someone you know has not received fair compensation or has experienced unfair treatment at work.
-
-> “I am honored to use my training as a lawyer to change people’s lives.”
-
-Alison has volunteered with the Lawyers’ Committee for Civil Rights and the
+Alison volunteers with the Lawyers’ Committee for Civil Rights and the
 AIDS Legal Referral Panel in San Francisco representing immigrants who seek
 safety in this country.  Recently Alison obtained asylum and ultimately
 permanent residence for a man fleeing persecution in his home country based on
@@ -68,7 +50,7 @@ Alison is admitted to the U.S. District Courts in the Northern District and Cent
 
 ## Recognition
 
-Alison was recognized as a Northern California Rising Star and included in San Francisco Magazine's list of "Top Women Attorneys in Northern California" in 2016 and in 2017.
+Alison was recognized as a Northern California Rising Star and included in San Francisco Magazine's list of "Top Women Attorneys in Northern California" in 2016, 2017, and 2018.
 
 ## Professional Associations and Memberships
 
@@ -80,7 +62,7 @@ Alison was recognized as a Northern California Rising Star and included in San F
 
 - Lawyers’ Committee for Civil Rights (Pro Bono Asylum Attorney)
 
-- AIDS Legal Referral Panel (Pro Bono Immigration Attorney)
+- AIDS Legal Referral Panel (Pro Bono Immigration and Employment Attorney)
 
 - San Francisco Society for Prevention of Cruelty to Animals (SF/SPCA)
 

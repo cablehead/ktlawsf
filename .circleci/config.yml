@@ -7,10 +7,15 @@ jobs:
     steps:
       - checkout
 
+      - restore_cache:
+          keys:
+          - key-{{ checksum "package.json" }}
+
       - run:
           name: Install Npm
           command: npm install
 
-      - run:
-          name: Build
-          command: gatsby build
+      - save_cache:
+          key: key-{{ checksum "package.json" }}
+          paths:
+            - node_modules

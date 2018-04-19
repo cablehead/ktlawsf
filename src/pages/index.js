@@ -57,18 +57,14 @@ export default (props) =>
     />
     <div style={{ margin: '0 1rem' }}>
     <h1 style={{ fontWeight: '300', marginTop: '25px', textAlign: 'center' }}>
-      <b>Kosinski and Thiagaraj, LLP</b> is an <b>employment law</b> firm that
-      provides <b>responsive</b> and <b>knowledgeable</b> legal services.
+      <b>Kosinski and Thiagaraj, LLP<b> is your advocate for fair and lawful treatment at work. <b>We are on your side.<b>
     </h1>
     <div>
-      <p>
-      Experiencing unlawful treatment at work harms both your work life and
-      your personal life.
       </p>
       <p>
       Finding an advocate who will
       listen closely to your case and provide you with individual service is
-      important.  The attorneys at Kosinski and Thiagaraj, LLP will attend to
+      important.  The attorneys at Kosinski and Thiagaraj, LLP will respond promptly to
       your concerns and will work hard to represent your interests.  Fees for
       most types of cases are on contingency, which means you do not pay any
       fees unless you collect damages.

@@ -7,7 +7,7 @@ export default () =>
     <br/>
     <br/>
     This website contains general information that is intended, but not
-    guaranteed, to be correct.  This website is not intended to be a source of
-    legal advice and visiting this website does not create an attorney-client
-    relationship. 
+    guaranteed, to be correct.  
+    <br/>
+        This website is not intended to be a source of legal advice and visiting this website does not create an attorney-client relationship. 
   </div>

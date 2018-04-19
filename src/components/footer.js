@@ -2,7 +2,7 @@
 export default () =>
   <div style={{ padding: '10px', borderTop: '1px #aaa solid', textAlign: 'center', fontSize: '60%' }}>
     <br/>
-    351 California Street, Suite 300 ~ San Francisco, CA 94104 ~ (415) 230-2860
+    201 Filbert Street, Suite 201 ~ San Francisco, CA 94133 ~ (415) 230-2860
     ~ © Kosinski and Thiagaraj, LLP 2018
     <br/>
     <br/>

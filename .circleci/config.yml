@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: gatsbyjs/gatsby
+      - image: aripalo/gatsby-docker
 
     steps:
       - checkout

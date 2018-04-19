@@ -53,7 +53,6 @@ export const pageQuery = graphql`
 export default (props) =>
   <Layout active="home">
     <Img
-      title="Two ladies, looking professional, knowledgeable and responsive."
       sizes={props.data.image_main.sizes}
     />
     <div style={{ margin: '0 1rem' }}>
@@ -86,7 +85,6 @@ export default (props) =>
         <Link to="/about-us">
         <Img
           style={{ border: 'black solid 3px', marginBottom: '20px' }}
-          title="Two ladies, looking professional, yet fun!"
           sizes={props.data.image_aboutus.sizes}
         />
         </Link>
@@ -105,7 +103,6 @@ export default (props) =>
         <Link to="/practice-areas">
         <Img
           style={{ border: 'black solid 3px', marginBottom: '20px' }}
-          title="Practice Areas"
           sizes={props.data.image_practiceareas.sizes}
         />
         </Link>
@@ -131,7 +128,6 @@ export default (props) =>
         <Link to="/blog">
         <Img
           style={{ border: 'black solid 3px', marginBottom: '20px' }}
-          title="Two ladies leaving court after professionally demolishing the opposition."
           sizes={props.data.image_news.sizes}
         />
         </Link>

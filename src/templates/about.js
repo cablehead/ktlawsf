@@ -23,7 +23,6 @@ export default ({ data }) =>
     <OneAndTwoThirds>
       <div style={{ marginBottom: '1.45rem' }}>
       <Img
-        title="Lady Lawyer, looking very professional."
         sizes={data.image.sizes}
       />
       </div>

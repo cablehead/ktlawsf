@@ -20,7 +20,7 @@ Emily is admitted to the U.S. District Courts in the Northern District and the C
 
 ## Recognition
 
-Emily was recognized in 2017 as a Northern California Rising Star and included in San Francisco Magazine's list of "Top Women Attorneys in Northern California."
+Emily was recognized in 2017 and 2018 as a Northern California Rising Star and included in San Francisco Magazine's list of "Top Women Attorneys in Northern California."
 
 ## Professional Associations and Memberships
 

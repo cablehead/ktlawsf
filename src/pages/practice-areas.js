@@ -17,7 +17,8 @@ export const pageQuery = graphql `
 
 export default ({ data }) =>
   <Layout active="practice-areas">
-    <Img
+      <h1>Practice Areas</h1>
+      <Img
       sizes={data.image.sizes}
     />
     <div style={{ margin: '0 1rem' }}>

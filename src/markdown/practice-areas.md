@@ -1,5 +1,3 @@
-# Practice Areas
-
 ## Unpaid Wages and Overtime
 
 “Non-exempt,” or hourly, employees are entitled to pay for all of their time

@@ -77,11 +77,11 @@ key to achieving a fair severance package.
 ## Wrongful Termination
 
 California and federal law prohibit employers from terminating an employee
-based the employee’s protected classification, such as the employee’s sex,
-race, disability or age.
+based the employee’s protected classification, such as the employee’s sex, pregnancy,
+race, disability, or age.
 
 ## Contact Us
 
 If you believe that you may have been treated unlawfully at work, please
-contact the experienced and attentive lawyers at Kosinski and Thiagaraj, LLP to
+contact the experienced advocates at Kosinski and Thiagaraj, LLP to
 schedule a free phone consultation.

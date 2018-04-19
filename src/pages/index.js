@@ -57,7 +57,7 @@ export default (props) =>
     />
     <div style={{ margin: '0 1rem' }}>
     <h1 style={{ fontWeight: '300', marginTop: '25px', textAlign: 'center' }}>
-      <b>Kosinski and Thiagaraj, LLP</b> is your advocate for fair and lawful treatment at work. <b>We are on your side.</b>
+      <b>Kosinski and Thiagaraj, LLP</b> is your advocate for fair and lawful treatment at work. <br/><b>We are on your side.</b>
     </h1>
     <div>
       <p>

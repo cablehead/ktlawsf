@@ -60,7 +60,6 @@ export default (props) =>
       <b>Kosinski and Thiagaraj, LLP</b> is your advocate for fair and lawful treatment at work. <b>We are on your side.</b>
     </h1>
     <div>
-      </p>
       <p>
       Finding an advocate who will
       listen closely to your case and provide you with individual service is

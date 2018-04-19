@@ -33,7 +33,6 @@ export default ({ data }) => {
   return (
 		<Layout active="blog">
 		<Img
-			title="Tools of the trade for two professional Lady Lawyers"
 			sizes={data.image.sizes}
 		/>
     <div style={{ margin: '0 1rem' }}>

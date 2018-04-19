@@ -8,9 +8,9 @@ jobs:
       - checkout
 
       - run:
-        name: Install Npm
-        command: npm install
+          name: Install Npm
+          command: npm install
 
       - run:
-        name: Build
-        command: gatsby build
+          name: Build
+          command: gatsby build

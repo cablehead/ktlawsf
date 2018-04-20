@@ -18,6 +18,26 @@ const typography = new Typography({
       color: "hsla(0, 0%, 0%, 0.8)",
       fontSize: '120%',
     },
+    'input[type=text]': {
+      padding: '8px',
+      color: 'hsla(0, 0%, 0%, 0.6)',
+      outline: 'none',
+    },
+    'input[type=submit]': {
+      color: '#FFF',
+      backgroundColor: '#272727',
+      padding: '10px 40px',
+      outline: 'none',
+      border: 0,
+      boxShadow: 'none',
+      borderRadius: '0px',
+    },
+    'textarea': {
+      padding: '8px',
+      color: 'hsla(0, 0%, 0%, 0.6)',
+      outline: 'none',
+      borderColor: '#bfbfbf',
+    },
 		blockquote: {
       fontWeight: 700,
       marginLeft: 0,

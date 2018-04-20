@@ -35,7 +35,7 @@ export default (props) =>
       props.location.search ? (
       <p>Thank you!</p>
       ) : (
-      <form action="contact-us?success=true" method="POST" netlify>
+      <form action="contact-us?success=true" method="POST" data-netlify="true">
       <div>
         Name <span>*</span>
       </div>

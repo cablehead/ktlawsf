@@ -78,7 +78,7 @@ export default (props) =>
 				  Brief Description of Your Legal Issue <span>*</span>
         </div>
         <div>
-				  <textarea style={{ width: '100%' }} rows="5" name="description"></textarea>
+				  <textarea style={{ width: '100%' }} required rows="5" name="description"></textarea>
         </div>
 
         <div style={{ height: 20 }}>&nbsp;</div>

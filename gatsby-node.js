@@ -6,6 +6,17 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 const { GraphQLString } = require('graphql')
 
 
+function convertDateToUTC(date) {
+    return new Date(
+      date.getUTCFullYear(),
+      date.getUTCMonth(),
+      date.getUTCDate(),
+      date.getUTCHours(),
+      date.getUTCMinutes(),
+      date.getUTCSeconds(),
+      )
+}
+
 const slugify = s =>
 	s.toString().toLowerCase()
 		.replace(/\s+/g, '-')           // Replace spaces with -
@@ -28,11 +39,11 @@ exports.setFieldsOnGraphQLNodeType = ({ type }) => {
         const slug = slugify(ast.children[0].children[0].value)
         switch (node.fields.type) {
           case "blog":
-            const dt = new Date(node.fields.date)
+            const dt = convertDateToUTC(new Date(node.fields.date))
             return ("/blog/" +
               dt.getFullYear().toString() + "/" +
               (dt.getMonth() + 1).toString() + "/" +
-              (dt.getDate() + 1).toString() + "/"
+              (dt.getDate()).toString() + "/"
               + slug)
           case "case":
             return ("/cases/" + slug)

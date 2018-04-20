@@ -31,9 +31,13 @@ export default (props) =>
     >
 
     <div>
-      <form>
+      {
+      props.location.search ? (
+      <p>Thank you!</p>
+      ) : (
+      <form action="contact-us?success=true" method="POST" netlify>
       <div>
-        Name <span class="required">*</span>
+        Name <span>*</span>
       </div>
       <div>
         <div
@@ -44,10 +48,10 @@ export default (props) =>
           }}
         >
           <div>
-          <input style={{ width: '100%' }} required name="first-name" type="text" spellcheck="false" />
+          <input style={{ width: '100%' }} required name="first-name" type="text" />
           </div>
           <div>
-          <input style={{ width: '100%' }} required name="last-name" type="text" spellcheck="false" />
+          <input style={{ width: '100%' }} required name="last-name" type="text" />
           </div>
           <div>
             <small>First Name</small>
@@ -59,15 +63,15 @@ export default (props) =>
 
         <div style={{ height: 20 }}>&nbsp;</div>
         <div>
-          Email Address <span class="required">*</span>
+          Email Address <span>*</span>
         </div>
         <div>
-        <input style={{ width: '100%' }} name="email" type="email" required spellcheck="false" />
+        <input style={{ width: '100%' }} name="email" type="email" required />
         </div>
 
         <div style={{ height: 20 }}>&nbsp;</div>
         <div>
-				  Brief Description of Your Legal Issue <span class="required">*</span>
+				  Brief Description of Your Legal Issue <span>*</span>
         </div>
         <div>
 				  <textarea style={{ width: '100%' }} rows="5" name="description"></textarea>
@@ -78,7 +82,7 @@ export default (props) =>
           Phone
         </div>
         <div>
-        <input style={{ width: '100%' }} name="phone" type="text" spellcheck="false" />
+        <input style={{ width: '100%' }} name="phone" type="text" />
         </div>
 
         <div style={{ height: 20 }}>&nbsp;</div>
@@ -101,6 +105,8 @@ export default (props) =>
         </div>
       </div>
       </form>
+      )
+      }
     </div>
 
     <div>

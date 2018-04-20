@@ -69,7 +69,10 @@ export default (props) =>
       fees unless you collect damages.
       </p>
 
-      <p style={{ textAlign: 'center' }}>Please contact us for a free phone consultation.</p>
+      <p style={{ textAlign: 'center' }}>
+        Please <Link to="/contact-us">contact us</Link> for a free phone
+        consultation.
+      </p>
     </div>
 
     <div style={{ padding: '20px', borderTop: '1px #eee solid' }} />

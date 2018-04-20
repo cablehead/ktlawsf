@@ -18,8 +18,8 @@ const typography = new Typography({
       color: "hsla(0, 0%, 0%, 0.8)",
       fontSize: '120%',
     },
-    'input[type=text]': {
-      padding: '8px',
+    'input[type=text], input[type=email]': {
+      padding: '8px 12px',
       color: 'hsla(0, 0%, 0%, 0.6)',
       outline: 'none',
     },
@@ -33,7 +33,7 @@ const typography = new Typography({
       borderRadius: '0px',
     },
     'textarea': {
-      padding: '8px',
+      padding: '8px 12px',
       color: 'hsla(0, 0%, 0%, 0.6)',
       outline: 'none',
       borderColor: '#bfbfbf',

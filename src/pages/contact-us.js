@@ -62,7 +62,7 @@ export default (props) =>
           Email Address <span class="required">*</span>
         </div>
         <div>
-        <input style={{ width: '100%' }} name="email" type="text" required spellcheck="false" />
+        <input style={{ width: '100%' }} name="email" type="email" required spellcheck="false" />
         </div>
 
         <div style={{ height: 20 }}>&nbsp;</div>

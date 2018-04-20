@@ -16,6 +16,10 @@ export default (props) =>
     We look forward to hearing from you.
     </p>
 
+    <p>
+    <a href="/contact-us-success">Link to success</a>
+    </p>
+
     <div
       css={{
         '@media (max-width: 599px)': {

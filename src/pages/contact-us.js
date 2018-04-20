@@ -16,10 +16,6 @@ export default (props) =>
     We look forward to hearing from you.
     </p>
 
-    <p>
-    <a href="/contact-us-success">Link to success</a>
-    </p>
-
     <div
       css={{
         '@media (max-width: 599px)': {
@@ -39,7 +35,13 @@ export default (props) =>
       props.success ? (
       <p>Thank you!</p>
       ) : (
-      <form name="contact-us" action="/contact-us-success" method="POST" data-netlify="true">
+      <form
+        name="contact-us"
+        action="/contact-us-success"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="phone2"
+        >
 
       <input type="hidden" name="form-name" value="contact-us" />
 
@@ -90,6 +92,9 @@ export default (props) =>
         </div>
         <div>
         <input style={{ width: '100%' }} name="phone" type="text" />
+        </div>
+        <div style={{ display: "none" }}>
+        <input style={{ width: '100%' }} name="phone2" type="text" />
         </div>
 
         <div style={{ height: 20 }}>&nbsp;</div>

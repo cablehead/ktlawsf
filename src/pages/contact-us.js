@@ -40,6 +40,9 @@ export default (props) =>
       <p>Thank you!</p>
       ) : (
       <form name="contact-us" action="/contact-us-success" method="POST" data-netlify="true">
+
+      <input type="hidden" name="form-name" value="contact-us" />
+
       <div>
         Name <span>*</span>
       </div>

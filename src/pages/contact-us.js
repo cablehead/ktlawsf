@@ -32,10 +32,10 @@ export default (props) =>
 
     <div>
       {
-      props.location.search ? (
+      props.success ? (
       <p>Thank you!</p>
       ) : (
-      <form name="contact-us" method="POST" data-netlify="true">
+      <form name="contact-us" action="/contact-us-success" method="POST" data-netlify="true">
       <div>
         Name <span>*</span>
       </div>

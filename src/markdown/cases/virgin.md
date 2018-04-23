@@ -4,7 +4,7 @@ On March 18, 2015, Kosinski and Thiagaraj, LLP, along with its co-counsel Moniqu
 
 The lawsuit, which was brought by two former and one current Virgin America flight attendants, alleges that Virgin America is violating California labor laws by not paying flight attendants for all hours worked (as opposed to just hours in flight), not paying overtime, not providing meal and rest breaks, and not providing accurate wage statements. 
 
-In November 2016, the Court ordered that the class could proceed as a class action.  Click [here](/s/bernstein-v-virgin-america-order-class-certification.pdf) to read a copy of that order.
+In November 2016, the Court ordered that the class could proceed as a class action.  Click [here](/documents/bernstein-v-virgin-america-order-class-certification.pdf) to read a copy of that order.
 
 In January 2017, the Court determined that most of Plaintiffs’ wage claims can move forward toward trial.  Click [here](/documents/bernstein-v-virgin-america-order-summary-judgment.pdf) to read a copy of that order.
 

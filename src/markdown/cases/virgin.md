@@ -13,3 +13,7 @@ Court-approved notice of this lawsuit was sent to Class members in April 2017 to
 If you would like more information about this case, please contact [Alison](/alison-kosinski) at [alison@ktlawsf.com](mailto:alison@ktlawsf.com) or [Emily](/emily-thiagaraj) at [emily@ktlawsf.com](mailto:emily@ktlawsf.com), or both attorneys at 415-230-2860.
 
 Your employer is prohibited from retaliating against you for asserting your rights, including for helping with this lawsuit.  If you believe that you are being retaliated against, please contact us as well.
+
+# Gordon et al. v. Braavos, Inc. d/b/a Bannerman Security, and Jonathan Chin
+
+Kosinski and Thiagaraj, LLP, along with its co-counsel [The Liu Law Firm](http://www.liulawpc.com), filed a class action against Bannerman Security and its founder/CEO Johnny Chin.  The lawsuit alleges that the technology company misclassified its security guards as independent contractors and denied its workers numerous benefits under state and federal law, including overtime.  Learn more about the lawsuit [here](/documents/Gordon v. Bannerman Complaint).

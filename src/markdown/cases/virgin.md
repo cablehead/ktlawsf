@@ -6,7 +6,7 @@ The lawsuit, which was brought by two former and one current Virgin America flig
 
 In November 2016, the Court ordered that the class could proceed as a class action.  Click [here](/s/Order-Certifying-Class-and-Denying-Motion-to-Strike.pdf) to read a copy of that order.
 
-In January 2017, the Court determined that most of Plaintiffs’ wage claims can move forward toward trial.  Click [here](/s/Order-re-Summary-Judgment.pdf) to read a copy of that order.
+In January 2017, the Court determined that most of Plaintiffs’ wage claims can move forward toward trial.  Click [here](/documents/Bernstein v. Virgin America Order re Summary Judgment.pdf) to read a copy of that order.
 
 Court-approved notice of this lawsuit was sent to Class members in April 2017 to explain the lawsuit and their rights.  More information about this notice is available [here](http://virginwagelawsuit.com/).
 

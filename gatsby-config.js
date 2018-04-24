@@ -31,5 +31,6 @@ module.exports = {
     },
 
     `gatsby-plugin-glamor`,
+    'gatsby-plugin-remove-trailing-slashes',
   ],
 }

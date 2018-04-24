@@ -16,4 +16,4 @@ Your employer is prohibited from retaliating against you for asserting your righ
 
 # _Gordon et al. v. Braavos, Inc. d/b/a Bannerman Security, and Jonathan Chin_
 
-Kosinski and Thiagaraj, LLP, along with its co-counsel [The Liu Law Firm](http://www.liulawpc.com), filed a class action against Bannerman Security and its founder/CEO Johnny Chin.  The lawsuit alleges that the technology company misclassified its security guards as independent contractors and denied its workers numerous benefits under state and federal law, including overtime.  Learn more about the lawsuit [here](/documents/gordon-v-bannerman).
+In 2017, Kosinski and Thiagaraj, LLP, along with its co-counsel [The Liu Law Firm](http://www.liulawpc.com), filed a class action against Bannerman Security and its founder/CEO Johnny Chin.  The lawsuit alleges that the technology company misclassified its security guards as independent contractors and denied its workers numerous benefits under state and federal law, including overtime.  Learn more about the lawsuit [here](/documents/gordon-v-bannerman).

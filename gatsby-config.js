@@ -1,6 +1,13 @@
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.ktlawsf.com`,
+  },
+
   plugins: [
+    {
+      resolve: `gatsby-plugin-sitemap`
+    },
 
     {
       resolve: `gatsby-plugin-google-analytics`,

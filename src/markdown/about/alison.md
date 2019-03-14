@@ -29,10 +29,9 @@ exclusively practiced employment law.  Alison then co-founded Kosinski and Thiag
 
 Alison volunteers with the Lawyers’ Committee for Civil Rights and the
 AIDS Legal Referral Panel in San Francisco representing immigrants who seek
-safety in this country.  Recently Alison obtained asylum and ultimately
+safety in this country.  Alison obtained asylum and ultimately
 permanent residence for a man fleeing persecution in his home country based on
-his sexual orientation.  She now represents an individual who was a victim of
-violent crime in California seek lawful status in this country.
+his sexual orientation.  Recently she obtained asylum for a man and his family after he uncovered widespread government corruption in his home country.  Alison now represents an individual who was a victim of violent crime in California seeking lawful status in this country.
 
 > “Giving back to Bay Area residents, whether two- or four-footed, fills my heart.”
 
@@ -50,7 +49,7 @@ Alison is admitted to the U.S. District Courts in the Northern District and Cent
 
 ## Recognition
 
-Alison was recognized as a Northern California Rising Star and included in San Francisco Magazine's list of "Top Women Attorneys in Northern California" in 2016, 2017, and 2018.
+Alison was recognized as a Northern California Rising Star and included in San Francisco Magazine's list of "Top Women Attorneys in Northern California" in 2016, 2017, and 2018.  In 2019, Alison was recognized as a Northern California Super Lawyer.
 
 ## Professional Associations and Memberships
 

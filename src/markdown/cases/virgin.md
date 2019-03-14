@@ -6,13 +6,15 @@ The lawsuit, which was brought by two former and one current Virgin America flig
 
 In November 2016, the Court ordered that the class could proceed as a class action.  Click [here](/documents/bernstein-v-virgin-america-order-class-certification.pdf) to read a copy of that order.
 
-In January 2017, the Court determined that most of Plaintiffs’ wage claims can move forward toward trial.  Click [here](/documents/bernstein-v-virgin-america-order-summary-judgment.pdf) to read a copy of that order.
-
 Court-approved notice of this lawsuit was sent to Class members in April 2017 to explain the lawsuit and their rights.  More information about this notice is available [here](http://virginwagelawsuit.com/).
 
+In July 2018, the Court issued a series of findings that Virgin America did in fact fail to pay its flight attendants for thousands of hours worked.  The Court then awarded the class of flight attendants a total judgment of over $77 million for these violations.  Click [here](bernstein-v-virgin-america-order-damages.pdf)to read a copy of the Court's order.  Enforcement of this judgment has been stayed while Virgin [appeals](bernstein-v-virgin-america-appeal.pdf) this case to the U.S. Court of Appeals for the Ninth Circuit.
+
+If you have any questions about this case, please contact [Alison](/alison-kosinski) at [alison@ktlawsf.com](mailto:alison@ktlawsf.com) or [Emily](/emily-thiagaraj) at [emily@ktlawsf.com](mailto:emily@ktlawsf.com), or both attorneys at 415-230-2860.
 
 
 ## _Houston et al. v. Braavos, Inc. d/b/a Bannerman Security, et al._
+
 
 Kosinski and Thiagaraj, LLP, along with its co-counsel [The Liu Law Firm](http://www.liulawpc.com) and [Schneider Wallace Cottrell Konecky Wotkyns LLP](https://www.schneiderwallace.com/), filed a class action against Bannerman Security and several of its high-level executives.  The lawsuit alleges that the technology company misclassified its security guards as independent contractors and denied its workers numerous benefits under state and federal law, including overtime.  Learn more about the lawsuit [here](/documents/houston-v-bannerman.pdf).
 

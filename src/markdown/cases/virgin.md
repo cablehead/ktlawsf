@@ -1,4 +1,4 @@
-# Class Action Lawsuit Against Virgin America Seeks Unpaid Wages for Flight Attendants
+# Kosinski and Thiagaraj, LLP Wins Over $77 Million on Behalf of Virgin America Flight Attendants for Wage Violations
 
 On March 18, 2015, Kosinski and Thiagaraj, LLP, along with its co-counsel Monique Olivier ([Olivier Schreiber & Chao LLP](http://www.osclegal.com/)), filed a class action lawsuit against Virgin America seeking unpaid minimum and overtime wages.  The lawsuit is brought on behalf of all Virgin America flight attendants who were employed by Virgin America since 2011.  The case is _Bernstein et. al. v. Virgin America, Inc._ (Case No. 15-CV-02277-JST).
 

@@ -8,7 +8,7 @@ In November 2016, the Court ordered that the class could proceed as a class acti
 
 Court-approved notice of this lawsuit was sent to Class members in April 2017 to explain the lawsuit and their rights.  More information about this notice is available [here](http://virginwagelawsuit.com/).
 
-In July 2018, the Court issued a series of findings that Virgin America did in fact fail to pay its flight attendants for thousands of hours worked.  The Court then awarded the class of flight attendants a total judgment of over $77 million for these violations.  Click [here](bernstein-v-virgin-america-order-damages.pdf) to read a copy of the Court's order.  Enforcement of this judgment has been stayed while Virgin [appeals](bernstein-v-virgin-america-appeal.pdf) this case to the U.S. Court of Appeals for the Ninth Circuit.
+In July 2018, the Court issued a series of findings that Virgin America did in fact fail to pay its flight attendants for thousands of hours worked.  The Court then awarded the class of flight attendants a total judgment of over $77 million for these violations.  Click [here](/documents/bernstein-v-virgin-america-order-damages.pdf) to read a copy of the Court's order.  Enforcement of this judgment has been stayed while Virgin [appeals](/documents/bernstein-v-virgin-america-appeal.pdf) this case to the U.S. Court of Appeals for the Ninth Circuit.
 
 If you have any questions about this case, please contact [Alison](/alison-kosinski) at [alison@ktlawsf.com](mailto:alison@ktlawsf.com) or [Emily](/emily-thiagaraj) at [emily@ktlawsf.com](mailto:emily@ktlawsf.com), or both attorneys at 415-230-2860.
 

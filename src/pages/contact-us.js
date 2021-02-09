@@ -125,8 +125,8 @@ export default (props) =>
       <br/>
       <p>
       KOSINSKI AND THIAGARAJ, LLP<br/>
-      201 Filbert Street, Ste. 201<br/>
-      San Francisco, CA 94133<br/>
+      1300 Clay Street, Suite 600<br/>
+      Oakland, CA 94612<br/>
       </p>
 
       <p>

@@ -2,6 +2,7 @@
 export default () =>
   <div style={{ padding: '10px', borderTop: '1px #aaa solid', textAlign: 'center', fontSize: '60%' }}>
     <br/>
+    Oh Hai
     1300 Clay Street, Suite 600 ~ Oakland, CA 94612 ~ (415) 230-2860
     ~ © Kosinski and Thiagaraj, LLP 2020
     <br/>

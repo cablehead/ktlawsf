@@ -35,9 +35,8 @@ his sexual orientation.  Recently she obtained asylum for a man and his family a
 
 > “Giving back to Bay Area residents, whether two- or four-footed, fills my heart.”
 
-While not practicing law, Alison may be seen biking around San Francisco or
-assisting animals in need.  Alison has been a regular volunteer at the San
-Francisco SPCA for the past eight years.  Alison lives in San Francisco with
+While not practicing law, Alison may be seen biking around the Bay Area or
+assisting animals in need.  Alison passes her days with
 her husband, Andy, their daughters, Nathelina and Annika, and their two cats, Galoshes and
 Hop.
 

@@ -28,7 +28,7 @@ const Item = props =>
 
 export const pageQuery = graphql`
   query HeaderImageQuery {
-    image_main: imageSharp(id: { regex: "/mast.png/" }) {
+    image_main: imageSharp(id: { regex: "/mast.jpg/" }) {
       sizes(maxWidth: 960, toFormat: JPG ) {
         ...GatsbyImageSharpSizes
       }

@@ -10,7 +10,7 @@ Emily co-founded Kosinski and Thiagaraj, LLP with the goal of providing top-notc
 Since becoming a member of the California Bar, Emily has represented clients in many phases of employment litigation, including case strategy, discovery, depositions, drafting and arguing motions, trial preparation, and drafting appellate briefs.  Emily’s diligence, advocacy skills, and dedication to her clients have resulted in her successfully securing favorable settlements, administrative awards, and jury verdicts in their favor.
 
 Emily was born and raised in the Santa Cruz Mountains and received her undergraduate degree from UC San Diego, where she spent a year in Spain studying comparative politics at the Universidad de Complutense de Madrid.  In the year between receiving her undergraduate degree and starting law school, Emily spent time teaching in Korea and backpacking throughout Southeast Asia and India. Emily graduated from University of San Francisco School of Law, where she was awarded the Arthur C. Zief Jr. Scholarship and was a Senior Editor on the Maritime Law Journal.  While in law school, Emily worked for Duane Morris in Ho Chi Minh City, Vietnam and was a summer associate for a San Francisco employment law firm.
-When Emily is not advocating for and advising employees, you can find her hiking, cooking vegetarian food, and traveling.  Emily lives with her husband, Raj, and daughter, Remi.
+When Emily is not advocating for and advising employees, you can find her hiking, cooking vegetarian food, and traveling.  Emily lives with her daughter, Remi, and bunny, Sweetie.
 
 ## State Bar Admission
 

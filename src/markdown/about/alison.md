@@ -48,7 +48,7 @@ Alison is admitted to the U.S. District Courts in the Northern District and Cent
 
 ## Recognition
 
-Alison was recognized as a Northern California Rising Star and included in San Francisco Magazine's list of "Top Women Attorneys in Northern California" in 2016, 2017, and 2018.  In 2019, Alison was recognized as a Northern California Super Lawyer.
+Alison was recognized as a Northern California Rising Star and included in San Francisco Magazine's list of "Top Women Attorneys in Northern California" in 2016, 2017, and 2018.  Since 2019, Alison has been recognized every year as a Northern California Super Lawyer.
 
 ## Professional Associations and Memberships
 

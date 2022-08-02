@@ -1,3 +1,22 @@
+
+
+# Updates and Notices to Virgin America Class Members
+
+Dear Class Members:
+
+The following is a report from Class Counsel, the lawyers who represent the Class of Virgin America flight attendants, in _Bernstein et al. v. Virgin America, Inc._.
+
+* The case is presently pending in the federal district court before Judge Jon S. Tigar.  Plaintiffs have prevailed on their claims for overtime, wage statement violations, meal and rest period violations, waiting time penalties, and the failure to pay flight attendants in a timely manner as required by California law.
+
+* The district court has been directed by the appellate court to revise the judgment in accordance with the opinion that the appellate court issued last summer.  Accordingly, plaintiffs have moved to amend the judgment.  Alaska Airlines have made several arguments in opposition.
+
+* The district court will hear the motion on August 18, 2022, and will then decide what the total judgment will be.  Plaintiffs have asked the court to enter a judgment that is approximately $42 million.  Virgin is opposing Plaintiffs’ motion, but agrees that it must pay the Class for the overtime violations.
+
+* Alaska Airlines continues to state that it cannot comply with any obligation to provide meal and rest periods in flight.  To be clear, the ruling in the case was limited: it found Virgin America (and Alaska ONLY as a successor-in-interest to Virgin America) liable for meal and rest periods only for flights within California and only for the time period of March 18, 2011–December 15, 2017.
+
+Please continue to check back here for further updates.  If you have questions, please contact Class Counsel: [alison@ktlawsf.com](mailto:alison@ktlawsf.com) and [monique@os-legal.com](mailto:monique@os-legal.com).
+
+
 # Kosinski and Thiagaraj, LLP Wins Over $77 Million on Behalf of Virgin America Flight Attendants for Wage Violations
 
 On March 18, 2015, Kosinski and Thiagaraj, LLP, along with its co-counsel Monique Olivier ([Olivier Schreiber & Chao LLP](http://www.osclegal.com/)), filed a class action lawsuit against Virgin America seeking unpaid minimum and overtime wages.  The lawsuit is brought on behalf of all Virgin America flight attendants who were employed by Virgin America since 2011.  The case is _Bernstein et. al. v. Virgin America, Inc._ (Case No. 15-CV-02277-JST).
@@ -21,4 +40,3 @@ Kosinski and Thiagaraj, LLP, along with its co-counsel [The Liu Law Firm](http:/
 If you would like more information about this case, please contact [Alison](/alison-kosinski) at [alison@ktlawsf.com](mailto:alison@ktlawsf.com) or [Emily](/emily-thiagaraj) at [emily@ktlawsf.com](mailto:emily@ktlawsf.com), or both attorneys at 415-230-2860.
 
 Your employer is prohibited from retaliating against you for asserting your rights, including for helping with this lawsuit.  If you believe that you are being retaliated against, please contact us as well.
-

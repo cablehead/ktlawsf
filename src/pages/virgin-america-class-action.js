@@ -3,7 +3,7 @@ import Img from "gatsby-image";
 import Layout from "../components/layout"
 
 export const pageQuery = graphql `
-  query PracticeAreasQuery {
+  query VirginAmericaQuery {
     markdown_html: markdownRemark(id: { regex: "/virgin-america-class-action/"}) {
         html
     },
@@ -17,7 +17,7 @@ export const pageQuery = graphql `
 
 export default ({ data }) =>
   <Layout active="virgin-america-class-action">
-      <h1>Practice Areas</h1>
+      <h1>Virgin America Class Action</h1>
       <Img
       sizes={data.image.sizes}
     />

@@ -45,8 +45,6 @@ exports.setFieldsOnGraphQLNodeType = ({ type }) => {
               (dt.getMonth() + 1).toString() + "/" +
               (dt.getDate()).toString() + "/"
               + slug)
-          case "case":
-            return ("/cases/" + slug)
         }
 			},
     },
@@ -67,9 +65,6 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
       const dt = year + "-" + name.substring(0, name.length - 3)
 			createNodeField({node, name: `date`, value: dt})
 			createNodeField({node, name: `type`, value: "blog"})
-
-    } else if (type == "cases") {
-			createNodeField({node, name: `type`, value: "case"})
 
     } else if (type == "about") {
 			createNodeField({node, name: `type`, value: "about"})
@@ -126,16 +121,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           createPage({
             path: node.slug,
             component: path.resolve(`./src/templates/blog.js`),
-            context: {
-              pt: node.fileAbsolutePath.toString(),
-            },
-          })
-          break
-
-        case "case":
-          createPage({
-            path: node.slug,
-            component: path.resolve(`./src/templates/case.js`),
             context: {
               pt: node.fileAbsolutePath.toString(),
             },

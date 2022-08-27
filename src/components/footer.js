@@ -3,7 +3,7 @@ export default () =>
   <div style={{ padding: '10px', borderTop: '1px #aaa solid', textAlign: 'center', fontSize: '80%' }}>
     <br/>
     1300 Clay Street, Suite 600 ~ Oakland, CA 94612 ~ (415) 230-2860
-    ~ © Kosinski and Thiagaraj, LLP 2021
+    ~ © Kosinski and Thiagaraj, LLP 2022
     <br/>
     <br/>
     <a href="https://ktlawsf.ca">View our Canadian website</a>

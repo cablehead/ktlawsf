@@ -18,6 +18,9 @@ const typography = new Typography({
       color: "hsla(0, 0%, 0%, 0.8)",
       fontSize: '120%',
     },
+    'h3': {
+      fontSize: '1.2rem',
+    },
     'input[type=text], input[type=email]': {
       padding: '8px 12px',
       color: 'hsla(0, 0%, 0%, 0.6)',

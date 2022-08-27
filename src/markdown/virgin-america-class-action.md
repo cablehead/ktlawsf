@@ -20,7 +20,7 @@ Please continue to check back here for further updates.  If you have questions, 
 
 ### What is the case and what is it about?
 
-The case, Bernstein et al. v. Virgin America, Inc. and Alaska Airlines, Inc., Case No. 15-cv-2277, is currently pending in the U.S. District Court for the Northern District of California before the Honorable Jon S. Tigar (the “District Court”).  The case is on behalf of flight attendants who worked for Virgin America at any time between March 18, 2011 and December 15, 2017 (the “Class”), and alleges that Virgin America failed to comply with certain California wage laws in the way it paid its flight attendants.  Alaska Airlines is the successor-in-interest to Virgin America, which means that Alaska is responsible for paying any judgment or settlement in the case.
+The case, _Bernstein et al. v. Virgin America, Inc. and Alaska Airlines, Inc._, Case No. 15-cv-2277, is currently pending in the U.S. District Court for the Northern District of California before the Honorable Jon S. Tigar (the “District Court”).  The case is on behalf of flight attendants who worked for Virgin America at any time between March 18, 2011 and December 15, 2017 (the “Class”), and alleges that Virgin America failed to comply with certain California wage laws in the way it paid its flight attendants.  Alaska Airlines is the successor-in-interest to Virgin America, which means that Alaska is responsible for paying any judgment or settlement in the case.
 
 ### What is the current status of the case?
 
@@ -34,7 +34,7 @@ Virgin/Alaska sought review in the U.S. Supreme Court of the part of the Ninth C
 
 ### I am a former Virgin America flight attendant.  Do you need my current contact information?  If so, who can I contact to update my address?
 
-Yes, Class counsel needs your current mailing and email addresses for any upcoming communications with the Class.  If you have moved recently, please send your updated information to Class counsel Alison Kosinski at alison@ktlawsf.com.
+Yes, Class counsel needs your current mailing and email addresses for any upcoming communications with the Class.  If you have moved recently, please send your updated information to Class counsel Alison Kosinski at [alison@ktlawsf.com](mailto:alison@ktlawsf.com).
 
 ### How much does Alaska, as successor in interest to Virgin America, owe in this lawsuit?
 
@@ -46,7 +46,7 @@ Because the District Court has not yet determined the total amount of the judgme
 
 ### What if I believe that the amount I will be awarded is incorrect?  What can I do?
 
-Once the plan of allocation is proposed, if you believe there is an error in the amount to be distributed to you, you can contact Class counsel Monique Olivier (monique@os-legal.com) or Alison Kosinski (alison@ktlawsf.com).
+Once the plan of allocation is proposed, if you believe there is an error in the amount to be distributed to you, you can contact Class counsel Monique Olivier ([monique@os-legal.com](mailto:monique@os-legal.com)) or Alison Kosinski ([alison@ktlawsf.com](mailto:alison@ktlawsf.com)).
 
 ### How will this case affect Alaska or the airline industry in general?
 
@@ -58,4 +58,4 @@ Alaska and its representatives are not permitted to talk to Class members about 
 
 ### Who should I contact if I have more questions?
 
-You can contact Class counsel, Alison Kosinski at 415-230-2860 or alison@ktlawsf.com, and Monique Olivier at monique@os-legal.com.
+You can contact Class counsel, Alison Kosinski at 415-230-2860 or [alison@ktlawsf.com](mailto:alison@ktlawsf.com), and Monique Olivier at [monique@os-legal.com](mailto:monique@os-legal.com).

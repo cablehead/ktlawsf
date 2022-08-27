@@ -64,9 +64,9 @@ export default (props) =>
     </h1>
     <div>
       <div style={{ textAlign: 'center',
-	      backgroundColor:'#0083bf', padding: '20px', 'border-radius': 'l5px', marginTop: '10px', marginBottom: '10px'
+	      backgroundColor:'#0083bf', padding: '20px', borderRadius: 'l5px', marginTop: '10px', marginBottom: '10px'
       }}>
-      <a style={{ fontSize: '130%', color: '#FFFFFF' }}
+      <a style={{ fontSize: '140%', color: '#FFFFFF' }}
         href="/virgin-america-class-action">Virgin America Flight Attendants, Click Here for More Info</a>
       </div>
       <p>

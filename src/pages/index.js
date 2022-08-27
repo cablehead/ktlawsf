@@ -63,6 +63,9 @@ export default (props) =>
       <b>Kosinski and Thiagaraj, LLP</b> is your advocate for fair and lawful treatment at work. <br/><b>We are on your side.</b>
     </h1>
     <div>
+      <p style={{ textAlign: 'center' }}>
+      <a href="/virgin-america-class-action">Virgin America Flight Attendants, Click Here for More Info</a>
+      </p>
       <p>
       Finding an advocate who will
       listen closely to your case and provide you with individual service is

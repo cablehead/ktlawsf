@@ -22,6 +22,7 @@ export default ({ data }) => {
 	const posts = data.posts.edges
   return (
     <Layout active="cases">
+	  foo
     <div style={{ margin: '0 1rem' }}>
 			{
 				posts.map(({ node }) => (

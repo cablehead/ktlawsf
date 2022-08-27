@@ -61,7 +61,7 @@ export default (props) =>
       <Link className={ props.active == "home" ? active : normal } to="/">HOME</Link>
       <Link className={ props.active == "about-us" ? active : normal } to="/about-us">ABOUT US</Link>
       <Link className={ props.active == "practice-areas" ? active : normal } to="/practice-areas"> PRACTICE AREAS</Link>
-      <Link className={ props.active == "cases" ? active : normal } to="/cases">CASES</Link>
+      <Link className={ props.active == "virgin-america-class-action" ? active : normal } to="/virgin-america-class-action">Virgin America Class Action</Link>
       <Link className={ props.active == "blog" ? active : normal } to="/blog">BLOG</Link>
       <Link className={ props.active == "contact-us" ? active : normal } to="/contact-us">CONTACT US</Link>
       <Link className={ props.active == "zhongwen" ? active : normal } to="/zhongwen">中文</Link>

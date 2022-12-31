@@ -773,6 +773,8 @@
                     </div>
                 </div>
                 <div style="margin:0 1rem;" data-reactid="21">
+		{% set posts = get_section(path="blog/_index.md") %}
+		{% for page in posts.pages %}
                     <div class="css-bmcmee" style="margin-top:25px;" data-reactid="22">
                         <div data-reactid="23">
 				<a href="{{ page.permalink }}" data-reactid="24">
@@ -792,6 +794,7 @@
 			{{ page.content | safe }}
 			</main>
                     </div>
+		{% endfor %}
                 </div>
                 <div style="margin:0 1rem;" data-reactid="38">
                     <div style="padding:10px;border-top:1px #aaa solid;text-align:center;font-size:80%;" data-reactid="39">

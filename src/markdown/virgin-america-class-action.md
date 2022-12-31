@@ -1,6 +1,8 @@
 # Updates and Notices to Virgin America Class Members
 
-_Update 8/19/22: The Court took the hearing that was scheduled for 8/18/22 off-calendar and indicated it will be issuing a ruling on Plaintiffs’ Motion to Amend the Judgment.  We are awaiting that ruling. Check back here for further updates._
+### Update 12/30/22:  The federal district court has issued its order on Plaintiffs’ motion to amend the judgment.  A copy of the ruling is available [here](documents/bernstein-v-virgin-america-order-motion-to-amend-judgment.pdf).  The total judgment is now approximately $31 million, which is less than what Plaintiffs’ had asked for from the Court and much more than what Virgin had argued was the correct amount.  There are still additional steps to go before there is a final judgment and distribution of funds—this will likely take several more months.  We also will not have any specifics on how much each individual Class member will be paid until there is a final judgment and the Court rules on fees and costs.  
+
+### Please check back here for further updates.
 
 Dear Class Members:
 

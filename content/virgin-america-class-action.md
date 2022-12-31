@@ -1,5 +1,6 @@
 +++
 template = "virgin-america-class-action.html"
+updated = 2022-12-30
 +++
 # Updates and Notices to Virgin America Class Members
 

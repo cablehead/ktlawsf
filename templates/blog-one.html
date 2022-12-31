@@ -781,33 +781,20 @@
                         <div data-reactid="23">
                             <a href="/blog/2021/7/19/kosinski-and-thiagaraj-llp-launches-its-canadian-office" data-reactid="24">
                                 <h2 data-reactid="25">
-                                    <!-- react-text: 26 -->
-                                    Kosinski and Thiagaraj, LLP Launches Its Canadian Office!<!-- /react-text -->
+				{{ page.header }}
                                 </h2>
                             </a>
                             <p data-reactid="27">
                                 <small data-reactid="28">
                                     <a href="/blog/2021/7/19/kosinski-and-thiagaraj-llp-launches-its-canadian-office" data-reactid="29">
-                                        <!-- react-text: 30 -->
-                                        Posted by Alison Kosinski on <!-- /react-text -->
-                                        <!-- react-text: 31 -->
-                                        July 19, 2021<!-- /react-text -->
+                                        Posted by Alison Kosinski on {{ page.date | date(format="%B %e, %Y") }}
                                     </a>
                                 </small>
                             </p>
-                            <!-- react-text: 32 -->
-                            <!-- /react-text -->
-                            <p data-reactid="33">
-                                <!-- react-text: 34 -->
-                                Kosinski and Thiagaraj, LLP is proud to announce the opening of its first Canadian office.  Its sister law firm to the north, Kosinski and Thiagaraj, Ltd., has opened its doors in Toronto, Ontario, and is ready to assist clients throughout Canada on cross-border employment matters.  Please feel free to stop by our <!-- /react-text -->
-                                <a href="https://ktlawsf.ca/" data-reactid="35">
-                                    <!-- react-text: 36 -->
-                                    Canadian website<!-- /react-text -->
-                                </a>
-                                <!-- react-text: 37 -->
-                                 or our new office!<!-- /react-text -->
-                            </p>
                         </div>
+		         <main class="content">
+			{{ page.content | safe }}
+			</main>
                     </div>
                 </div>
                 <div style="margin:0 1rem;" data-reactid="38">

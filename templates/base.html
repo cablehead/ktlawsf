@@ -745,9 +745,10 @@
                                 <img src="/static/logo.209ac28c.svg" style="max-height:100px;margin-left:-25px;margin-bottom:0;" data-reactid="7"/>
                             </a>
                         </div>
+			{% set section = page.extra.section | default(value="home") %}
                         <div class="css-8wra8o" data-reactid="8">
-                            <a class="css-wkgbb8" href="/" data-reactid="9">HOME</a>
-                            <a class="css-1uemvzq" href="/about-us" data-reactid="10">ABOUT US</a>
+			    <a class="{% if section == "home" %}css-wkgbb8{% else %}css-1uemvzq{% endif %}" href="/" data-reactid="9">HOME</a>
+                            <a class="{% if section == "about-us" %}css-wkgbb8{% else %}css-1uemvzq{% endif %}" href="/about-us" data-reactid="10">ABOUT US</a>
                             <a class="css-1uemvzq" href="/practice-areas" data-reactid="11"> PRACTICE AREAS</a>
                             <a class="css-1uemvzq" href="/virgin-america-class-action" data-reactid="12">VIRGIN AMERICA CLASS ACTION</a>
                             <a class="css-1uemvzq" href="/blog" data-reactid="13">BLOG</a>

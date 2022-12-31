@@ -25,6 +25,8 @@
     "npm": "^6.14.6",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "typography": "^0.16.0",
+    "react-typography": "^0.16.0",
     "react-helmet": "^5.2.0",
     "rehype-react": "^3.0.2",
     "remark-html": "^13.0.2",

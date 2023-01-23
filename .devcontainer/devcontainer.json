@@ -2,10 +2,12 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {},
   "portsAttributes": {
-	"8080": {
-		"label": "zola preview"
-	}
+	  "8080": {
+		  "label": "zola preview",
+      "protocol": "https",
+	  }
 },
+"forwardPorts": [8080],
     "postStartCommand": 
         "docker run -d -v \"$(pwd)\":/site -w /site -p 8080:8080 ghcr.io/getzola/zola:v0.16.1 serve  -p 8080 -i 0.0.0.0"
 }

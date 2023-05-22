@@ -4,6 +4,13 @@ updated = 2022-12-30
 +++
 # Updates and Notices to Virgin America Class Members
 
+_**Update 05/19/2023:**  Today Plaintiffs filed their Motion to Approve the Plan of Allocation, Attorneys’ Fees and Expenses, and Service Awards to Class Representatives.  This motion asks the district court to approve how all of the money from the judgment is ultimately paid out among the Class members, the Class representatives, and the attorneys.  The hearing before Judge Tigar on this motion is currently set for August 17, 2023.  Notice to all Class members is being sent out and is also available below._
+
+- [Motion to Approve the Plan of Allocation, Attorneys’ Fees and Expenses, and Service Awards to Class Representatives](documents/2023.05.18%20%5B478%5D%20Pltfs%27%20Notice%20of%20Mtn%20and%20Mtn%20to%20Approve%20Attornys%27%20Fees.pdf)
+- [Stipulation re: Plan of Allocation, Attorneys’ Fees and Expenses, and Notice to the Class](documents/ECF%20468%20-%20Stipulation.pdf)
+- [Declaration of Monique Olivier In Support of Plaintiffs’ Motion](documents/ECF%20469%20-%20MO%20Decl.pdf)
+- [Declaration of Richard M. Pearl In Support of Plaintiffs’ Motion](documents/ECF%20477%20-%20Pearl.pdf)
+
 _Update 12/30/22:  The federal district court has issued its order on Plaintiffs’ motion to amend the judgment.  A copy of the ruling is available [here](documents/bernstein-v-virgin-america-order-motion-to-amend-judgment.pdf).  The total judgment is now approximately $31 million, which is less than what Plaintiffs’ had asked for from the Court and much more than what Virgin had argued was the correct amount.  There are still additional steps to go before there is a final judgment and distribution of funds—this will likely take several more months.  We also will not have any specifics on how much each individual Class member will be paid until there is a final judgment and the Court rules on fees and costs._
 
 _Please check back here for further updates._

@@ -4,6 +4,12 @@ updated = 2022-12-30
 +++
 # Updates and Notices to Virgin America Class Members
 
+_**Update 11/03/2023:**  Today the federal district court issued its order granting Plaintiffs' Unopposed Motion to Approve the Plan of Allocation, Attorney’s Fees and Expenses, and Service Awards.  The order is available [here](documents/ECF%20487%20-%20Order%20Granting%20Plan%20of%20Allocation.pdf).  The order states in part:_
+
+> The Plan [of Allocation] provides that each class member shall receive their pro rata share of the “Net Distribution Amount”—the Common Fund Judgment less attorney’s fees, costs, service awards, and the amount payable to the California Labor & Workforce Development Agency (“LWDA”)—based upon that class member’s payroll data. . . . . Once the class administrator calculates the amount distributable to each class member and notifies class members of their respective amounts, class members will have 75 days to submit additional information or documentation to the class administrator to challenge that calculation. . . . . The Plan further provides that the class administrator will issue checks to class members that will remain valid for 120 days and that, after 90 days, the class administrator will attempt to contact all class members that have not cashed their checks.
+
+_Please contact the [Class Administrator](https://virginwagelawsuit.com/) for updates and questions about the upcoming distribution of the award._
+
 _**Update 05/19/2023:**  Today Plaintiffs filed their Motion to Approve the Plan of Allocation, Attorneys’ Fees and Expenses, and Service Awards to Class Representatives.  This motion asks the district court to approve how all of the money from the judgment is ultimately paid out among the Class members, the Class representatives, and the attorneys.  The hearing before Judge Tigar on this motion is currently set for August 17, 2023.  Notice to all Class members is being sent out and is also available below._
 
 - [Motion to Approve the Plan of Allocation, Attorneys’ Fees and Expenses, and Service Awards to Class Representatives](documents/2023.05.18%20%5B478%5D%20Pltfs%27%20Notice%20of%20Mtn%20and%20Mtn%20to%20Approve%20Attornys%27%20Fees.pdf)

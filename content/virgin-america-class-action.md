@@ -4,6 +4,8 @@ updated = 2022-12-30
 +++
 # Updates and Notices to Virgin America Class Members
 
+_**Update 4/5/2024:** The Class Administrator will be issuing checks beginning on April 5, 2024.  Please wait until April 22, 2024 to follow up with the Class Administrator if you have not received your check.  Thank you for your patience and understanding!_
+
 _**Update 11/03/2023:**  Today the federal district court issued its order granting Plaintiffs' Unopposed Motion to Approve the Plan of Allocation, Attorney’s Fees and Expenses, and Service Awards.  The order is available [here](documents/ECF%20487%20-%20Order%20Granting%20Plan%20of%20Allocation.pdf).  The order states in part:_
 
 > The Plan [of Allocation] provides that each class member shall receive their pro rata share of the “Net Distribution Amount”—the Common Fund Judgment less attorney’s fees, costs, service awards, and the amount payable to the California Labor & Workforce Development Agency (“LWDA”)—based upon that class member’s payroll data. . . . . Once the class administrator calculates the amount distributable to each class member and notifies class members of their respective amounts, class members will have 75 days to submit additional information or documentation to the class administrator to challenge that calculation. . . . . The Plan further provides that the class administrator will issue checks to class members that will remain valid for 120 days and that, after 90 days, the class administrator will attempt to contact all class members that have not cashed their checks.
